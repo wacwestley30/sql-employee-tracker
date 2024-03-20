@@ -45,6 +45,14 @@ function startApp() {
     });
 };
 
+function viewDepartments() {
+    db.query('SELECT * FROM department', (err, results) => {
+        if (err) throw err;
+        console.table(results);
+        startApp();
+    });
+};
+
 function closeConnection() {
     db.end(err => {
         if (err) throw err;
