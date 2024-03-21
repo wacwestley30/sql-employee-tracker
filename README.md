@@ -6,6 +6,8 @@
 
 This project uses Inquirer, MySQL2, MySQL databases and Node.js to run this app entirely within the Command-Line Interface (CLI). This app can be used to track employees through a mySQL database. Each employee can be assigned a department, role, salary, manager, etc. This app assumes any employee without a manager is a manager. This app can also delete and update any department, role or employee. Also, a total budget for each department can be viewed at any time.
 
+https://drive.google.com/file/d/1T04IFXAtIutWaJ2i2OzNf2M2nwFXmbPj/view?usp=drive_link
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -46,8 +48,6 @@ Next, 'View employees by manager' and 'View employees by department' returns tab
 
 ### Budget
 Finally, 'View department budget' will sum the total of all employees within a  selected department and return the total budget within the CLI.
-
-https://drive.google.com/file/d/1T04IFXAtIutWaJ2i2OzNf2M2nwFXmbPj/view?usp=drive_link
 
 ## License
 
