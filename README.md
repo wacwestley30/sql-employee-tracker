@@ -23,6 +23,8 @@ After installing, please run your MySQL server and add at least the `schema.sql`
 
 After populating with either your own seeds or the provided seeds, please run `node server.js` to start the CLI application. Once the program has started, you are presented with a list of questions to access and manage the new database.
 
+There is an empty string on line 10 of the server.js file so anyone can input their MySQL password when running the app locally. Alternatively, creating a password variable within a creds.js file and exporting the variable will also work for running the local MySQL server.
+
 ### View
 Starting from the top, you can 'View all departments', 'View all roles' and 'View all employees'. These 3 options will return tables in the CLI for review. Each table is in order by their respective ID.
 
