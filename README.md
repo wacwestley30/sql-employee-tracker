@@ -19,10 +19,13 @@ Start by running `npm i` to install any dependencies such as inquirer and mysql2
 
 ## Usage
 
+### Database
 After installing, please run your MySQL server and add at least the `schema.sql` to your local list of databases. Generally running `mysql -u root -p` will start the process for running MySQL with `-u` flag being for username and `-p` flag being for password. Once connected to MySQL, running `source db/schema.sql` will add the formatted tables department, role and employee. There is a provided `seeds.sql` for examples or testing. Running `source db/seeds.sql` will populate the tables with the seeds. Finally, run `\q` to quit MySQL.
 
+### Application
 After populating with either your own seeds or the provided seeds, please run `node server.js` to start the CLI application. Once the program has started, you are presented with a list of questions to access and manage the new database.
 
+### Troubleshooting
 There is an empty string on line 10 of the server.js file so anyone can input their MySQL password when running the app locally. Alternatively, creating a password variable within a creds.js file and exporting the variable will also work for running the local MySQL server.
 
 ### View
